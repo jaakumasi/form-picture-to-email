@@ -1,0 +1,32 @@
+.MailSent {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 30px 0 30px 0;
+  font-family: 'noto sans regular';
+  background-color: #ebf3fc;
+  position: relative;
+  z-index: 10;
+  padding: 0 0;
+}
+
+.MailSent .container {
+  background-color: white;
+  padding: 15px 25px 60px 25px;
+  text-align: center;
+}
+
+.MailSent .container button {
+  margin-top: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MailSent .container button:active {
+  background-color: white;
+  color: green;
+}
+/*# sourceMappingURL=mailsent.css.map */

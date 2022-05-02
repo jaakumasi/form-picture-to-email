@@ -1,0 +1,124 @@
+.Form {
+  max-width: 100vw;
+  padding: 30px 0 30px 0;
+  font-family: 'noto sans regular';
+  background-color: #ebf3fc;
+  position: relative;
+  z-index: 10;
+  padding: 0 0;
+}
+
+.Form .container {
+  background-color: white;
+  padding: 15px 25px 60px 25px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.Form .toast {
+  position: absolute;
+  top: 30vh;
+  left: auto;
+  right: auto;
+  width: 90%;
+  color: white;
+}
+
+.Form .img_div {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0 0 0;
+}
+
+.Form .img_div .toast {
+  position: fixed;
+  top: 30px;
+  left: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+}
+
+.Form .img_div img {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .Form .img_div img {
+    width: 150px;
+  }
+}
+
+.Form .row {
+  margin-top: 14px;
+}
+
+.Form .row input {
+  margin-top: 3px;
+  border: 1px solid #a3a30b;
+}
+
+.Form .row .label {
+  font-size: 105%;
+}
+
+.Form .recovery_text {
+  font-size: 80%;
+  background-color: #eff0f0;
+  width: 95%;
+  margin-left: 2.4%;
+  padding: 5px;
+}
+
+.Form .recovery_text .name_span {
+  font-weight: bold;
+}
+
+.Form .btn_div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.Form .btn_div .spinner {
+  position: absolute;
+  top: 30%;
+  right: 25%;
+}
+
+.Form .btn_div .submit_btn {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background-color: #363a3d;
+  border-color: #363a3d;
+  width: 65%;
+}
+
+.Form .btn_div .submit_btn:active {
+  color: #363a3d;
+  background-color: white;
+  border: 1px solid #363a3d;
+}
+
+@media screen and (max-width: 768px) {
+  .Form .btn_div .submit_btn {
+    min-width: 100%;
+  }
+}
+/*# sourceMappingURL=jsform.css.map */
