@@ -85,7 +85,7 @@ export default function JSForm() {
                             <Form.Control name='fullName' value={name} className='fullName' onChange={(e) => {
                                 setName(e.target.value);
                                 let timeout = setTimeout(function () {
-                                    setShowRecovery(true);
+                                    if(name.length !==0) setShowRecovery(true);
                                 }, 2000);
                             }
                             } />
