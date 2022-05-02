@@ -3,7 +3,6 @@ import { Route, Routes, Navigate, useNavigate } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import JSForm from './JSForm'
-import MailSent from './MailSent'
 
 export default function App() {
 
